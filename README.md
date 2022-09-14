@@ -11,10 +11,7 @@ Ethereum<>Harmony two way bridge (trusted version)
 
 ### Commands
 
-* Fetch repo 
 
-```
-git clone git@github.com:harmony-one/ethhmy-bridge.frontend.git
 ```
 
 * Install dependencies
@@ -61,9 +58,5 @@ The frontend will be started in http://localhost:8080
 You need to have permission to push to the harmonyone repo.
 
 ```bash
-sudo docker login
-sudo docker tag ethhmy-fe-web harmonyone/ethhmy-fe-web:latest
-sudo docker push harmonyone/ethhmy-fe-web
-```
 
-You may also push to difference release version other than just `latest`.
+
